@@ -1,0 +1,25 @@
+{
+  "name": "taksijulle",
+  "version": "1.0.0",
+  "description": "taksijullen telegram botti",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dregu/taksijulle.git"
+  },
+  "author": "Dregu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dregu/taksijulle/issues"
+  },
+  "homepage": "https://github.com/dregu/taksijulle#readme",
+  "dependencies": {
+    "moment-timezone": "^0.5.11",
+    "nconf": "^0.8.4",
+    "node-telegram-bot-api": "^0.27.0",
+    "public-google-calendar": "^0.2.0"
+  }
+}
