@@ -31,7 +31,7 @@ bot.onText(/\/taksi ?(.*)/, (msg, match) => {
 		}
 		if (event.now) {
 			var shift = event.start.tz('Europe/Helsinki').format('H:mm')+'—'+event.end.tz('Europe/Helsinki').format('H:mm')
-			bot.sendMessage(msg.chat.id, '👍 TaksiJulle *on vuorossa* ('+shift+'), numero', { parse_mode: 'Markdown' })
+			bot.sendMessage(msg.chat.id, '👍 TaksiJulle *on vuorossa* ('+shift+'), soita heti 😉 045 7875 6969 🍆', { parse_mode: 'Markdown' })
 		} else {
 			var shift = event.start.tz('Europe/Helsinki').format('D.M. H:mm')+'—'+event.end.tz('Europe/Helsinki').format('H:mm')
 			bot.sendMessage(msg.chat.id, '👎 TaksiJulle *ei ole vuorossa* (seuraava vuoro '+shift+')', { parse_mode: 'Markdown' })
