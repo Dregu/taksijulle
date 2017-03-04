@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/dregu/taksijulle#readme",
   "dependencies": {
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^17.1.0",
     "moment-timezone": "^0.5.11",
     "nconf": "^0.8.4",
     "node-telegram-bot-api": "^0.27.0",
-    "public-google-calendar": "^0.2.0"
+    "public-google-calendar": "^0.2.0",
+    "request": "^2.80.0"
   }
 }
